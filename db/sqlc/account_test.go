@@ -3,7 +3,6 @@ package db
 import (
 	"context"
 	"database/sql"
-	"fmt"
 	"testing"
 	"time"
 
@@ -96,11 +95,5 @@ func TestListAccounts(t *testing.T) {
 
 	for _, account := range accounts {
 		require.NotEmpty(t, account)
-	}
-}
-
-func TestDeleteAccount1(t *testing.T) {
-	for i := 0; i < 10; i++ {
-		fmt.Println("Hola como es que te encuentras")
 	}
 }
