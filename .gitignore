@@ -3,3 +3,6 @@ ANNOTATIONS.md
 
 # test
 .vscode/
+
+# others
+.DS_Store
